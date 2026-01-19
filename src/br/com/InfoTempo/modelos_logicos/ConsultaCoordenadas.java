@@ -13,7 +13,7 @@ public class ConsultaCoordenadas {
 
     public Endereco buscaCoordenada(String localidade) {
         URI endereco = URI.create(
-                "https://api.positionstack.com/v1/forward?access_key=985ded97e5f86a26028b3e8cd9070463&query="
+                "https://api.positionstack.com/v1/forward?access_key=COLOQUE+SUA+API+KEY="
                         + localidade.replace(" ", "+")
         );
 
