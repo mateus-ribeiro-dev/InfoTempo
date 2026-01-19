@@ -13,7 +13,7 @@ public class ConsultaClima {
     public static Clima buscaClima(String latitude, String longitude){
         URI clima = URI.create("https://api.openweathermap.org/data/2.5/weather?" +
                 "lon=" + longitude + "&lat=" + latitude +
-                "&appid=a0fdc85108714b3fd70cebc6215834fd&units=metric");
+                "COLOQUE+SUA+API+KEY");
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
